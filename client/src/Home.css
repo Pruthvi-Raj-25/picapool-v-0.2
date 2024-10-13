@@ -1,0 +1,183 @@
+.part-1{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  left: 5rem;
+  top: 10vh;
+  background-color: brown;
+  display: flex;
+}
+
+.text-container{
+  background-color: violet;
+  display: inline;
+  align-items: left;
+  position: relative;
+  left: 2rem;
+  top: 20vh;
+  font-family: 'Poppins';
+  max-width: 47%;
+  height: 50%;
+}
+.text1{
+    /* font-size: 36px; */
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.text2{
+    font-weight: 600;
+    /* font-size: 96px; */
+    font-size: 6rem;
+    color: #FF8D41;
+    font-family: 'Poppins';
+}
+.text3{
+    font-weight: 400;
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
+.text4{
+    padding-top: 7.4vh;
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* width: 50%; */
+}
+
+.download-buttons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+  
+.download-buttons img {
+    width: 150px;
+}
+.rectangle-animation {
+    display: flex;
+    align-items: center;
+    border-color: red;
+    border-radius: 12px;
+    border-style: solid;
+    padding: 10px;
+    /* width: 170px; */
+}
+.circle-wrap{ 
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  background-color: rgb(24, 17, 78);
+  clip-path: circle(50% at 50% 50%);
+}
+
+.circle-animation {
+    /* display: flex; */
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* clip-path: circle(18rem at  10rem 15rem ); */
+    /* padding: 10px; */
+    /* border-radius: 1000000px; */
+} 
+/* .circle-animation img {
+    border: 5px;
+    border-color: red;
+    border-style: solid;
+} */
+
+.part-2 {
+  position:absolute;
+  left: 5rem;
+  top: 100vh;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .text-container {
+    max-width: 50%;
+  }
+  
+  .top-announcement {
+    background-color: #ffecb3;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  
+  .prize-info {
+    background-color: #ff8000;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 8px;
+    border-radius: 8px;
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  
+  .highlighted {
+    color: #ff8000;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  .download-buttons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .download-buttons img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .cta-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    position: relative;
+    max-width: 40%;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  } */
+  

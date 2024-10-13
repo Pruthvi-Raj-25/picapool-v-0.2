@@ -1,0 +1,111 @@
+.nav-links {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 55vw;
+    float: right;
+}
+
+.hamburger.open {
+    border: 0px;
+    z-index: 100;
+    position: relative;
+}
+
+.hamburger.open .bar:nth-child(1) {
+    transform: rotate(45deg)  translate(5px, -5px);
+  }
+  
+  .hamburger.open .bar:nth-child(2) {
+    opacity: 0; /* Hide the middle bar */
+  }
+  
+  .hamburger.open .bar:nth-child(3) {
+    transform: rotate(-45deg) 
+    translate(13px, -4px);
+}     
+
+@media (max-width: 430px){
+    body{
+        /* height: 10%; */
+        background-color: #FF8D41;
+    }
+    .header{
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .nav-links {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 50%;
+        height: 100%;
+        padding: 7vh 0px;
+        align-items: center;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.40);
+        gap: 3vh;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+    .nav-links.active {
+        transform: translateX(0);
+    }
+    .nav-item {
+        display: flex;
+        border-radius: 5px;
+        width: 50%;
+        right: 0;
+        align-items: center;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+         /* background-color: #FF8D41; */
+
+    }
+    .nav-item.active{
+        background-color: #FF8D41;
+    }
+    .logo-section{
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding: 7px;
+    }
+    .company-name {
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-weight: 600;
+        color: #FF8D41;
+        padding-left: 5px;
+        text-decoration: none;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #FF8D41;
+        padding: 5px 10px;
+    }
+    .bar{
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        margin: 2px 0;
+        border-radius: 10px;
+    }
+}
+
+
+
+
