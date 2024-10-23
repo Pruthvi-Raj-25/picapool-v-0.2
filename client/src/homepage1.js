@@ -91,11 +91,12 @@ const Home = () => (
       <div className="x-mobile">
         <img src={tl} className="trim" />
       </div>
-      {/* 
+
       <div className="second-1">
-        <div className="strip"></div>
-        <div>
+   
+        <div className="cross">
         <div className='heading'>Slice the Price of Your Pizza!</div>
+        <div className="strip"></div>
         <div className='simple'>Double the toppings, half the price! Pool your pizza order and enjoy more.</div>
         <div className='simple'>Team up with nearby pizza lovers for a delicious deal</div>
         <div className="image-contain">
@@ -108,7 +109,7 @@ const Home = () => (
           <img src={img}  height={420}/>
         </div>
       </div>
-      
+
       <div className="second">
         <img src={tl} />
         <div className="over">
@@ -134,7 +135,7 @@ const Home = () => (
             </div>
         </div>
       </div>
-
+      {/*
       <div className="full-line">
         <div className="line"/>
         <img src={manymore}/>
@@ -172,15 +173,17 @@ const Home = () => (
           <img src={ph3} alt="jl" />
         </div>
       </div>
+      */}
       <div className="hed">Video 
         <span className="orange">
           Guide
         </span>
       </div>
-      {/* <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> 
+       <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> 
       <div className="video-container">
         <iframe width="960" height="500" src="https://www.youtube.com/embed/zHCuyB13UoU?si=BYqutODGST4i1_4C" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
+
       <div className="hed">We are</div>
       <div className="hed-1">
         <span className="blue">
@@ -189,8 +192,10 @@ const Home = () => (
         <span className="orange">
           Winner
         </span>
+
         <img src={trophy} alt="trophy" />
       </div>
+
       <div className="first-container">
         <div className="text-contain">
           <li>
@@ -209,6 +214,7 @@ const Home = () => (
           </li>
           <img src={readmore} alt="read more->" />
         </div>
+  
         <div className="image-contain">
           <img alt="relaveant" />
         </div>
@@ -223,7 +229,7 @@ const Home = () => (
                 <div className="rectangle-animation">
                     <img src={GooglePlayIcon} width={150} alt="Get it on Google Play" />
                 </div>
-                <div className="rectangle-animation">
+                <div className="rectangle-animation-2">
                     <img src={AppStoreIcon} alt="Download on the App Store" />
                 </div>
             </div>
@@ -231,8 +237,8 @@ const Home = () => (
         <div className="circle">
             <img src={Illustration} alt="man using app"/>
         </div>
-      </div> */}
-    </div> 
+      </div>
+    </div>
   </>
 );
 export default Home;
