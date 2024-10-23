@@ -432,6 +432,9 @@ li{
     .rectangle-animation-2{
         height: 66px;
     }
+    .rectangle-animation{
+        height: 66px;
+    }
     .full-line{
         font-size: 10vw;
         padding: 10vh 2vw 5vh;
@@ -500,5 +503,75 @@ li{
         align-items: center;
         justify-content: center;
     }
-
+    .second-1{
+        flex-direction: column;
+    }
+    .cross{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .strip{
+        width: 70px;
+        height: 6px;
+        top: 0px;
+        left: 0px;
+    }
+    .simple{
+        width: 100%;
+    }
+    .image-contain{
+        display: none;
+    }
+    .over-right{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .honey{
+        display: flex;
+        position: relative;
+        padding: 10px;
+        margin-left: -20rem;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .in{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+    .hed{
+        /* display: block; */
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 75px;
+    }
+    .hed-1{
+        /* display: block; */
+        font-weight: 600;
+        font-size: 366px;
+        text-align: center;
+        padding-top: 75px;
+    }
 }
